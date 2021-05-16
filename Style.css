@@ -1,0 +1,215 @@
+/* Style Index*/
+ .fondo1 {
+     display: flex;
+     background-color: dimgray;
+     justify-content: center;
+ }
+.fondo1 > h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:black ;
+    color: chartreuse;
+    border-style: ridge;
+    border-width: 15px;
+    width: 700px;
+    height: 100px;
+}
+
+.fondo2 {
+    display: flex;
+    justify-content: center;
+    background-color: dimgray;
+}
+
+.fondo2 > h4 {
+    width: 500px;
+    height: 100px;
+    background-color: darkred;
+    color: darkorange;
+    border-style: groove;
+    border-width: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 200px 50px 200px;
+    text-align: center;
+}
+
+
+.fondo3 {
+    display: flex;
+    justify-content: center;
+    background-color: dimgray;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    text-align: center;
+}
+.fondo3 > figure {
+    border-style: double;
+    border-color: rgb(212, 156, 35);
+    border-width: 5px;
+}
+
+/* Style Photos */
+
+.container1 {
+    display: flex;
+    background-color: burlywood;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: space-around;
+    text-align: center;
+}
+.container1 > figure {
+    border-style: double;
+    border-color: brown;
+    border-width: 10px;
+    padding: 20px;
+}
+.image3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container2 {
+    display: flex;
+    background-color: burlywood;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.container2 > figure {
+    border-style: double;
+    border-color: brown;
+    border-width: 10px;
+    padding: 20px;
+}
+
+.container3 {
+    display: flex;
+    background-color: burlywood;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.container3 > figure {
+    border-style: double;
+    border-color: brown;
+    border-width: 10px;
+    padding: 20px;
+}
+
+
+
+/*Style Hystory*/
+
+body {
+    background-color: blanchedalmond;
+}
+h3 {
+    text-align: center;
+    font-style: italic;
+    font-size: 30px;
+    border-style: outset;
+    border-bottom-color: cornsilk;
+}
+
+.contenedor_parrafo1 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    border-style: outset;
+    border-color: cornsilk;
+    }
+.contenedor_parrafo1 > p {
+    background-color: rgb(235, 213, 177);
+    margin: 30px;
+    text-align: justify;
+}
+
+
+.contenedor_parrafo2 {
+    display: flex;
+    background-color: burlywood;
+    border-style: ridge;
+    border-color: cornsilk;
+}
+.contenedor_parrafo2 > p {
+    margin: 20px;
+    text-align: justify;
+}
+
+.contenedor_parrafo3 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    border-style: outset;
+    border-color: cornsilk; 
+}
+.contenedor_parrafo3 > p {
+    background-color: rgb(235, 213, 177);
+    margin: 20px;
+    text-align: justify;
+}
+
+
+/* Style Quiz */
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: chocolate;
+}
+
+form > fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+}
+
+fieldset > legend {
+    font-size: xx-large;
+    color: azure;
+    text-align: center;
+}
+
+fieldset > label {
+    font-size: x-large;
+}
+
+form > div {
+    display: flex;
+    flex-direction: row;
+}
+
+div > button {
+    border-style: groove;
+    border-width: 5px;
+    color: tomato;
+    font-size: xx-large;
+    font-style: italic;
+    padding: 5px;
+    margin-bottom: auto;
+}
+
+/* Style Button Volver */
+
+.contenedor_volver {
+    display: flex;
+    justify-content: center;
+}
+.button_return {
+    border-style: groove;
+    border-width: 5px;
+    color: brown;
+}

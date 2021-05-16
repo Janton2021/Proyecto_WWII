@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Quiz WWII</title>
+</head>
+<body>
+    <form id="myForm">
+        <fieldset>
+          <legend>
+            ¿Cuándo comenzó la Segunda Guerra Mundial?
+          </legend>
+          <label for="mayo-field">5 de Mayo de 1934</label>
+          <input 
+            id="mayo" 
+            type="radio" 
+            name="comienzo" 
+            value="mayo"/>
+  
+          <label for="septiembre-field">1 de Septiembre de 1939</label>
+          <input
+            id="septiembre"
+            type="radio"
+            name="comienzo"
+            value="septiembre"/>
+  
+          <label for="junio-field">10 de Junio de 1940</label>
+          <input 
+            id="junio" 
+            type="radio" 
+            name="comienzo" 
+            value="junio"/>
+  
+          <label for="abril-field">6 de Abril de 1941</label>
+          <input
+            id="abril"
+            type="radio"
+            name="comienzo"
+            value="abril"/>
+        </fieldset><br>
+  
+        <div>
+          <button type="submit">Siguiente Pregunta</button>
+        </div>
+      </form><br>
+
+      <div class="contenedor_volver">
+            <a href="Index.html">
+                <input type="button" value="Volver" class="button_return">
+            </a>
+      </div>
+
+    
+</body>
+    <script src="Script.js"></script>
+</html>
