@@ -63,7 +63,6 @@ setInputsListener();
 const myForm = document.getElementById("myForm");
 myForm.addEventListener("submit", function (e) {
   e.preventDefault();
-  console.log(myForm)
 
   if (e.target.elements[questions[counter].name].value === "") {
     alert("Necesita señalar un respuesta");
@@ -77,15 +76,12 @@ myForm.addEventListener("submit", function (e) {
 
   counter++;
   if (questions[counter].question === undefined) return;
-  console.log (counter)
 
   let fieldset = document.getElementsByTagName("fieldset");
   fieldset[0].innerHTML = "";
   let legend = "<legend>" + questions[counter].question + "</legend>";
-  //console.log(legend)
 
   fieldset[0].innerHTML = legend;
-  //console.log(fieldset)
 
   questions[counter].answers.forEach((element) => {
     let answer =
@@ -100,7 +96,6 @@ myForm.addEventListener("submit", function (e) {
       '" value="' +
       element.value +
       '"/>';
-    //console.log(answer)
     fieldset[0].innerHTML += answer;
   });
 
